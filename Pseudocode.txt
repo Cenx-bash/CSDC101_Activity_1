@@ -1,0 +1,49 @@
+Begin
+
+    Repeat
+        Display "-----------------------------------"
+        Display " Press A to calculate for Speed    "
+        Display " Press B to calculate for Duration "
+        Display " Press C to calculate for Distance "
+        Display "-----------------------------------"
+
+    INPUT choice 
+        IF choice ' A ' THEN{
+            Display " Enter distance in Kilometers: "
+            Input distance
+            Display " Enter duration in hours: "
+            Input Time
+            speed = distance / time 
+            Display " The speed is " speed " KPH " 
+        } 
+            ELSE IF choice ' B ' THEN{
+                Display " Enter distance in Kilometers: "
+                Input distance
+                Display " Enter speed in KPH: "
+                Input speed 
+                time = distance / speed
+                Display " The duration is " time, " hour/s "
+                }
+                    ELSE IF choice ' C ' THEN{
+                         Display " Enter the speed in kph: "
+                         Input ishowspeed 
+                         Display " Enter duration in hours: " 
+                         Input time 
+                         distance = speed * time
+                         Display " The distance is " distance, " km " 
+
+            }   
+                ELSE    
+                    Display "------------------------------------------------"
+                    Display "ERROR 404: The requested option was not found.
+                    Display "Please check your Input and try again.
+                    Display "------------------------------------------------"
+                END IF
+            Display "-----------------------------------"
+            Display " Do you want to try again? (y/n). "
+
+            Input answer 
+        Until asnwer = ' n ' 
+Display " Thank you for using this calculator! "
+
+End

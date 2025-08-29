@@ -1,0 +1,26 @@
+1. Start
+2. Display the menu:
+    - Press ' A ' to calculate the Speed.
+    - Press ' B ' to calculate the Duration(Time).
+    - Press ' C ' to calculate the Distance 
+3. Read the user's choice 
+4. if user select ' A ' then
+    - Ask the user for the distance from point A to B
+    - Ask the user for the duration of point A to B 
+    - Compute speed = distance / duration   
+    - Display " speed "
+5. if user select ' B ' then
+    - Ask the user for distance from point A to B 
+    - Ask the user for the speed(in KPH)
+    - Compute duration = distance / speed 
+    - Display " duration " 
+6. if user select ' C '
+    - Ask the user for the distance from point A to B 
+    - Ask the User for the duration of point A ti B 
+    - Compute distance = speed * duration 
+    - Display " duration "
+7. if user select is invalid, then display " ERROR 404: Please check your input and try again. "
+8. Ask user if they want to calculate again.( Y/N )
+9. if user select ' Y ' then repeat step 2 to 8
+10. if user select ' N ' then stop the program and print " Thank you for using this calculator "
+11. End 
