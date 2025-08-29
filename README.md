@@ -1,1 +1,1 @@
-# CSDC101_Activity_1
+We made a program that can compute speed, distance, or time. You pick what you want, it asks for numbers, does the math, and shows the answer. If you type wrong, it shows ERROR 404. After that, it asks if you want to try again. We also did the algorithm, pseudocode, flowchart, and code in C++ and Java.
